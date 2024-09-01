@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/JavaPro.iml" filepath="$PROJECT_DIR$/.idea/JavaPro.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lesson_04/code/code.iml" filepath="$PROJECT_DIR$/lesson_04/code/code.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lesson_01/demo20240729_1/demo20240729_1.iml" filepath="$PROJECT_DIR$/lesson_01/demo20240729_1/demo20240729_1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lesson_02/demo20240730_1/demo20240730_1.iml" filepath="$PROJECT_DIR$/lesson_02/demo20240730_1/demo20240730_1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lesson_03/code/demo20240731_1/demo20240731_1.iml" filepath="$PROJECT_DIR$/lesson_03/code/demo20240731_1/demo20240731_1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lesson_04/code/demo20240731_1/demo20240731_11.iml" filepath="$PROJECT_DIR$/lesson_04/code/demo20240731_1/demo20240731_11.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lesson_03/code/dz20240731_1/dz20240731_1.iml" filepath="$PROJECT_DIR$/lesson_03/code/dz20240731_1/dz20240731_1.iml" />
+    </modules>
+  </component>
+</project>

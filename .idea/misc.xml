@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/lesson_05/code/untitled/pom.xml" />
+        <option value="$PROJECT_DIR$/lesson_06/code/demo20240807/pom.xml" />
+        <option value="$PROJECT_DIR$/lesson_07/code/user_service/pom.xml" />
+        <option value="$PROJECT_DIR$/lesson_08/user_service_08/pom.xml" />
+        <option value="$PROJECT_DIR$/lesson_01/hw01/pom.xml" />
+        <option value="$PROJECT_DIR$/lesson_09/jdbc_demo/pom.xml" />
+        <option value="$PROJECT_DIR$/lesson_10/code/user_service/pom.xml" />
+        <option value="$PROJECT_DIR$/lesson_11/code/user_service/pom.xml" />
+      </list>
+    </option>
+    <option name="workspaceImportForciblyTurnedOn" value="true" />
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>
