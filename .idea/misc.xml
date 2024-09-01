@@ -12,9 +12,9 @@
         <option value="$PROJECT_DIR$/lesson_09/jdbc_demo/pom.xml" />
         <option value="$PROJECT_DIR$/lesson_10/code/user_service/pom.xml" />
         <option value="$PROJECT_DIR$/lesson_11/code/user_service/pom.xml" />
+        <option value="$PROJECT_DIR$/lesson_03/code/hw3/pom.xml" />
       </list>
     </option>
-    <option name="workspaceImportForciblyTurnedOn" value="true" />
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="17" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />

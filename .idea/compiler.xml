@@ -10,6 +10,7 @@
         <module name="jdbc_demo" />
         <module name="hw01" />
         <module name="user_service" />
+        <module name="hw3" />
         <module name="user_service (1)" />
         <module name="user_service (2)" />
         <module name="user_service (3)" />
