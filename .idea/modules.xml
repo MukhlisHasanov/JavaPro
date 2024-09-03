@@ -3,7 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/JavaPro.iml" filepath="$PROJECT_DIR$/.idea/JavaPro.iml" />
-      <module fileurl="file://$PROJECT_DIR$/lesson_04/code/code.iml" filepath="$PROJECT_DIR$/lesson_04/code/code.iml" />
       <module fileurl="file://$PROJECT_DIR$/lesson_01/demo20240729_1/demo20240729_1.iml" filepath="$PROJECT_DIR$/lesson_01/demo20240729_1/demo20240729_1.iml" />
       <module fileurl="file://$PROJECT_DIR$/lesson_02/demo20240730_1/demo20240730_1.iml" filepath="$PROJECT_DIR$/lesson_02/demo20240730_1/demo20240730_1.iml" />
       <module fileurl="file://$PROJECT_DIR$/lesson_03/code/demo20240731_1/demo20240731_1.iml" filepath="$PROJECT_DIR$/lesson_03/code/demo20240731_1/demo20240731_1.iml" />

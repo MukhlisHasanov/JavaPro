@@ -8,7 +8,6 @@ public class Product {
     private BigDecimal price;
     private String article;
 
-
     public Product(Long id, String title, BigDecimal price, String article) {
         this.id = id;
         this.title = title;

@@ -7,8 +7,8 @@ import java.util.List;
 
 @Component
 public interface ProductRepository {
-    public List<Product> findAll();
-    public Product save(Product product);
+    List<Product> findAll();
+    Product save(Product product);
 
 
 
