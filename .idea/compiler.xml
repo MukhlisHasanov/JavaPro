@@ -28,6 +28,8 @@
     <bytecodeTargetLevel>
       <module name="demo20240807" target="17" />
       <module name="hw4" target="17" />
+      <module name="hw4.main" target="17" />
+      <module name="hw4.test" target="17" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">

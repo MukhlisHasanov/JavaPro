@@ -10,10 +10,6 @@ public class Hw42Application {
 
     public static void main(String[] args) {
 
-//        AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(".app");
-//        CarController controller = context.getBean(CarController.class);
-
-//        System.out.println(controller.getAllCars());
         SpringApplication.run(Hw42Application.class, args);
     }
 
