@@ -30,6 +30,7 @@ public class CarServiceImpl implements CarService {
                 .stream()
                 .filter(c -> c.getId().equals(id))
                 .findAny()
-                .orElseThrow(() -> new CarNotFoundException());
+                .orElseThrow(() -> new CarNotFoundException("Car not found"));
+        
     }
 }

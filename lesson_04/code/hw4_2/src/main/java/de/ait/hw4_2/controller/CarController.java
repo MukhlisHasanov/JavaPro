@@ -22,7 +22,6 @@ public class CarController {
         return cars;
     }
 
-
     public Car getCarById(Long id) {
         return service.findById(id);
     }
