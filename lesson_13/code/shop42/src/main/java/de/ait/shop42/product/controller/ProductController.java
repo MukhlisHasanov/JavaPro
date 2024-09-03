@@ -1,11 +1,13 @@
 package de.ait.shop42.product.controller;
 
-
 import de.ait.shop42.product.dto.ProductRequestDTO;
 import de.ait.shop42.product.dto.ProductResponseDTO;
 import de.ait.shop42.product.service.ProductService;
 import lombok.RequiredArgsConstructor;
-import org.springframework.web.bind.annotation.*;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
 
@@ -14,43 +16,13 @@ import java.util.List;
 public class ProductController {
     private final ProductService service;
 
-
-    //    /products
-    //    /products?active=true
     @GetMapping("/products")
-    public List<ProductResponseDTO> getProducts(@RequestParam(name = "active", required = false) boolean active){
-        return service.getProducts(active);
+    public List<ProductResponseDTO> getProducts(){
+        return service.getAllProducts();
     }
 
     @PostMapping("/products")
     public ProductResponseDTO createProduct(@RequestBody ProductRequestDTO dto){
         return service.createNewProduct(dto);
     }
-
-    // PUT /products/23 + body
-
-    @PutMapping("/products/{id}")
-    public ProductResponseDTO uodateProduct(@PathVariable(name="id") Long id,
-                                            @RequestBody ProductRequestDTO dto) {
-        service.updateProduct(id,dto);
-
-
-        return service.updateProduct(id,dto);
-    }
-
-
-    // PATCH /products/23?active=true
-    // PATCH /products/23?active=false
-
-
-    public ProductResponseDTO setProductActiveStatus(@RequestParam(name = "active", defaultValue = "true") boolean active,
-                                                     @PathVariable(name = "id") Long id) {
-        return service.setActiveStatus(id, active);
-
-    }
-
-
-
-
-
 }

@@ -13,8 +13,5 @@ public interface ProductService {
 
     ProductResponseDTO setActiveStatus(Long id, boolean active);
 
-
-    List<ProductResponseDTO> getProducts(boolean active);
-
     List<ProductResponseDTO> getProducts(Boolean active);
 }

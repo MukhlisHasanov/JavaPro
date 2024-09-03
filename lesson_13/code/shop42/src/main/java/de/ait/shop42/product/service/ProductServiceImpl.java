@@ -56,15 +56,13 @@ public class ProductServiceImpl implements ProductService{
 
     @Override
     public List<ProductResponseDTO> getProducts(Boolean active) {
-      if(active==null) {
-          return getAllProducts();
-      } else {
-          List<Product> productByActive = repository.findByActive(active);
-          return productByActive.stream()
-                  .map(p->mapper.map(p,ProductResponseDTO.class))
-                  .toList();
-      }
-
-        return List.of();
+        if(active==null){
+            return getAllProducts();
+        } else {
+            List<Product> productByActive = repository.findByActive(active);
+            return productByActive.stream()
+                    .map(p->mapper.map(p,ProductResponseDTO.class))
+                    .toList();
+        }
     }
 }
