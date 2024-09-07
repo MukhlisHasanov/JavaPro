@@ -1,7 +1,5 @@
 package de.ait.user_service.service;
-
 import de.ait.user_service.entity.User;
-
 import de.ait.user_service.repository.UserRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -9,17 +7,12 @@ import org.springframework.stereotype.Service;
 
 import java.util.List;
 
-import static java.util.Locale.filter;
-
 @Service
+@RequiredArgsConstructor
 public class UserServiceImpl implements UserService{
 
     private final UserRepository repository;
 
-    @Autowired
-    public UserServiceImpl(UserRepository repository) {
-        this.repository = repository;
-    }
 
     @Override
     public List<User> getAll() {

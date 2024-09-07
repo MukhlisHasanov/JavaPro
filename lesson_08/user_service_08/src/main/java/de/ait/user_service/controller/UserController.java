@@ -33,7 +33,4 @@ public class UserController {
         service.save(user);
         return user;
     }
-
-
-
 }

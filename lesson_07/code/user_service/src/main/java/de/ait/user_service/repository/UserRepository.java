@@ -4,10 +4,9 @@ import de.ait.user_service.entity.User;
 
 import java.util.List;
 
-public interface UserRepository {
-    User delete (Long id);
+public interface UserRepository{
     List<User> findAll();
-    User save (User user);
-
+    User save (User entity);
+    User delete (Long id);
 
 }
